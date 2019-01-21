@@ -23,13 +23,33 @@
 
 	<style media="screen">
 
-		h1{
-			margin-top: 350px;
-			margin-left: 670px;
-			font-size: 50px;
-			text-align: center;
-			position: absolute;
-		}
+			.kotak{
+		width: 600px;
+		height: 400px;
+		margin-left: 500px;
+		margin-top: 250px;
+		background-color: #068587;
+		border-radius: 40px;
+		position: absolute;
+	}
+
+
+	table{
+		margin-top: 100px;;
+		font-size: 20px;
+		font-family: tata;
+		margin-left: 70px;
+		color: white;
+	}
+
+	#foto img{
+		width: 160px;
+		margin-top: -100px;
+		margin-left: 220px;
+		position: absolute;
+		background-color: #BEEB9F;
+		border-radius: 50%;
+	}
 	</style>
 </head>
 
@@ -108,9 +128,55 @@
 			</div>
 		</div>
 		<!-- END LEFT SIDEBAR -->
-		<div class="tengah">
-			<h1>Selamat Datang</h1>
-		</div>
+		
+		<div class="kotak">
+			<div id="foto">
+				<img src="<?= base_url() ?>assets/hiya.png">
+			</div>
+
+      <table>
+        <tr>
+          <td>Nama Lengkap</td>
+          <td>:</td>
+          <td>Clarissa Sanindita Reikisyifa</td>
+        </tr>
+        <tr>
+          <td>Nama Panggilan</td>
+          <td>:</td>
+          <td>Icha</td>
+        </tr>
+        <tr>
+          <td>TTL</td>
+          <td>:</td>
+          <td>Malang, 8 Oktober 2001</td>
+        </tr>
+        <tr>
+          <td>Sekolah</td>
+          <td>:</td>
+          <td>SMK Telkom Malang</td>
+        </tr>
+        <tr>
+          <td>Jurusan</td>
+          <td>:</td>
+          <td> RPL</td>
+        </tr>
+        <tr>
+          <td>Alamat</td>
+          <td>:</td>
+          <td>JL.S.Supriadi GG.8 No.14, Sukun, Malang</td>
+        </tr>
+        <tr>
+          <td>Golongan Darah</td>
+          <td>:</td>
+          <td> AB</td>
+        </tr>
+        <tr>
+          <td>Hobi</td>
+          <td>:</td>
+          <td> Membaca dan Berenang</td>
+        </tr>
+      </table>
+    </div>
 	<!-- Javascript -->
 
 </body>
